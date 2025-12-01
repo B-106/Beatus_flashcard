@@ -22,9 +22,9 @@ export default async function Home() {
         <pre>{JSON.stringify(data, null, 2)}</pre>
       </div>
       <div>
-      <input value={q} onChange={(e)=>setQ(e.target.value)} placeholder="질문"/>
-      <input value={a} onChange={(e)=>setA(e.target.value)} placeholder="답"/>
-      <button onClick={submit}>추가</button>
+        <input value={q} onChange={(e)=>setQ(e.target.value)} placeholder="질문"/>
+        <input value={a} onChange={(e)=>setA(e.target.value)} placeholder="답"/>
+        <button onClick={submit}>추가</button>
       </div>
     </main>
   );
